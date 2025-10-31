@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+#test: ../test/images
+
+nc: 3
+names: ['ground', 'rail', 'train']
+
+roboflow:
+  workspace: cvtrain-xjtn3
+  project: my-first-project-udp13
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/cvtrain-xjtn3/my-first-project-udp13/3
